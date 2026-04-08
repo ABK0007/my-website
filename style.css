@@ -1,0 +1,97 @@
+.bkground {
+  background-image: url('./intro.jpg');
+  background-size: cover; /* This ensures the image covers the entire area */
+  background-position: center center; /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* This makes the hero section take up the full height of the viewport */
+  width: 100%;
+}
+
+  .text-body-emphasis {
+    color: white !important;
+    margin-top: 260px;
+  }
+
+  .lead {
+    color: white;
+  }
+
+  .btn {
+    color: white;
+    border-color: white;
+    border-radius: 2px;
+    transition: padding 0.15s, margin-right 0.15s,
+    margin-left 0.15s !important;
+  }
+
+  .btn:hover {
+    color: white !important;
+    border-color: white !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-right: 2px !important;
+    margin-left: 2px !important;
+  }
+
+  .iconsss {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    color: grey;
+    background-color: transparent;
+    
+  }
+
+  .hedi {
+    color: black !important;
+  }
+    
+  .profile-image {
+    height: 200px;
+    border-radius: 150px;
+    align-self: center;
+    margin-bottom: 0px !important;
+    margin-top: 70px;
+
+
+  }
+
+  .profile-img {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px !important;
+    margin-top: 10px;
+  }
+
+  .marg {
+    margin-top: 0px !important;
+  }
+
+  .hellllo {
+    margin: 0px;
+  }
+
+  .contact {
+    height: 70px;
+    width: 200px;
+    color: white;
+    background-color: rgb(0, 162, 255);
+    border: groove;
+    border-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+
+  .contact:hover {
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.15);
+  }
+  
+  .contact:active {
+    margin: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }
